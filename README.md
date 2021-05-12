@@ -5,7 +5,7 @@ Simple. Small. With sound.
 Mainly it parse wide info from you'r debug.log file in .chia.
 
 In order to use this, you will need to:
-1. Go to you'r %USERNAME_FOLDER%\.chia\mainnet\config
+1. Go to you'r %USERNAME_FOLDER%/.chia/mainnet/config
 2. Open with an text editor config.yaml
 3. With search find setting log_level
 4. Change it to INFO, if it's not
