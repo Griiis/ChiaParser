@@ -9,7 +9,8 @@ namespace ChialPlotProofMonitor
 {
     class MainModule
     {
-        //2021-05-12T00:53:47.398 harvester chia.harvester.harvester: INFO     0 plots were eligible for farming be787b4a8e... Found 0 proofs. Time: 0.00199 s. Total 30 plots
+        private static bool firstCycle = true; // in order to NOT RAPE you'r years each launch.
+
         private static void Main(string[] args)
         {
             Console.WriteLine("Begin read process...");
@@ -38,6 +39,7 @@ namespace ChialPlotProofMonitor
 
         private static async void ParseLogFile()
         {
+            firstCycle = true;
             StreamReader sr = null;
             string line = null;
             try
@@ -54,6 +56,8 @@ namespace ChialPlotProofMonitor
             uint plotPassed = 0;
             uint missedFilter = 0;
             string[] lineResult;
+
+            
 
             while (true)
             {
@@ -84,8 +88,6 @@ namespace ChialPlotProofMonitor
                             missedFilter++;
                         }
                         Console.ForegroundColor = ConsoleColor.White;
-                        Console.Write(new String(' ',Console.BufferWidth));
-                        Console.SetCursorPosition(0, Console.CursorTop);
                         Console.WriteLine("At line " + lineCounter + "; Filter pass so far: " + plotPassed+ "; Missed attempts "+ missedFilter);
 
                         Console.ForegroundColor = ConsoleColor.Blue;
@@ -93,6 +95,7 @@ namespace ChialPlotProofMonitor
                     }
                     else if (line == null || sr == null)
                     {
+                        firstCycle = false;
                         sr?.Close();
                         sr = null;
                         await Task.Delay(250);
@@ -160,6 +163,10 @@ namespace ChialPlotProofMonitor
 
         private static void PlaySoundEffect(Stream stream)
         {
+            if(firstCycle)
+            {
+                return;
+            }
             SoundPlayer soundPlayer = new SoundPlayer(stream);
             soundPlayer.Play();
         }

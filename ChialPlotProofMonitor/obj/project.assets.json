@@ -195,11 +195,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Visual\\ChiaTools\\ChialPlotProofMonitor\\ChialPlotProofMonitor\\ChialPlotProofMonitor.csproj",
+      "projectUniqueName": "F:\\Visual\\Repositorie\\ChiaTools\\ChiapParser\\ChialPlotProofMonitor\\ChialPlotProofMonitor.csproj",
       "projectName": "ChialPlotProofMonitor",
-      "projectPath": "F:\\Visual\\ChiaTools\\ChialPlotProofMonitor\\ChialPlotProofMonitor\\ChialPlotProofMonitor.csproj",
+      "projectPath": "F:\\Visual\\Repositorie\\ChiaTools\\ChiapParser\\ChialPlotProofMonitor\\ChialPlotProofMonitor.csproj",
       "packagesPath": "C:\\Users\\Professional\\.nuget\\packages\\",
-      "outputPath": "F:\\Visual\\ChiaTools\\ChialPlotProofMonitor\\ChialPlotProofMonitor\\obj\\",
+      "outputPath": "F:\\Visual\\Repositorie\\ChiaTools\\ChiapParser\\ChialPlotProofMonitor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
