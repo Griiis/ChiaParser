@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChialPlotProofMonitor", "ChialPlotProofMonitor\ChialPlotProofMonitor.csproj", "{8DA04EA2-4CBF-4BD6-A46A-B9AD27D09C53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DA04EA2-4CBF-4BD6-A46A-B9AD27D09C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA04EA2-4CBF-4BD6-A46A-B9AD27D09C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA04EA2-4CBF-4BD6-A46A-B9AD27D09C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA04EA2-4CBF-4BD6-A46A-B9AD27D09C53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32D3AB4C-17E1-44A4-9DC2-B0EF47E87406}
+	EndGlobalSection
+EndGlobal

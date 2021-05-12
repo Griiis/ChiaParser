@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ILj6Z8usXRsAEJt0ks1AT4KJ2GVrjJKGx/RW3jt3fXEGgVkUx1Qn1iBI+TdAIer90bX2N5/eTyNag/u6I6LzoA==",
+  "success": true,
+  "projectFilePath": "F:\\Visual\\ChiaTools\\ChialPlotProofMonitor\\ChialPlotProofMonitor\\ChialPlotProofMonitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Professional\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
+    "C:\\Users\\Professional\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
